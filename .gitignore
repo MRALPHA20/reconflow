@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+reconflow_report.md
+.venv/
