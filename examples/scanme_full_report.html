@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>ReconFlow — scanme.nmap.org</title>
+<style>
+body { font-family: system-ui, sans-serif; margin: 2rem; color: #1a1a1a; }
+h1 { border-bottom: 2px solid #333; padding-bottom: .3rem; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; font-size: .9rem; }
+th { background: #f0f0f0; }
+pre { background: #f5f5f5; padding: 1rem; overflow-x: auto; }
+</style></head>
+<body>
+<h1>ReconFlow Report — scanme.nmap.org</h1>
+<p>Generated: 2026-10-07T06:39:24.604222+00:00</p>
+<h2>Subdomains (0)</h2><ul></ul>
+<h2>Live Hosts (0)</h2>
+<table><tr><th>URL</th><th>Status</th><th>Title</th><th>Tech</th></tr></table>
+<h2>Port Scan — scanme.nmap.org</h2><pre>Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-07 12:08 IST
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.26s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 39 closed tcp ports (reset)
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   open     ssh
+25/tcp   filtered smtp
+80/tcp   open     http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+179/tcp  filtered bgp
+445/tcp  filtered microsoft-ds
+554/tcp  open     rtsp
+646/tcp  filtered ldp
+1723/tcp open     pptp
+
+Nmap done: 1 IP address (1 host up) scanned in 3.90 seconds
+</pre>
+<h2>Nuclei Findings</h2><table><tr><th>Severity</th><th>Name</th><th>Template</th><th>Matched</th></tr><tr><td>info</td><td>WAF Detection</td><td>waf-detect</td><td>http://scanme.nmap.org</td></tr><tr><td>info</td><td>Apache Detection</td><td>apache-detect</td><td>http://scanme.nmap.org</td></tr></table>
+<h2>OSINT Emails (0)</h2><ul></ul>
+</body></html>

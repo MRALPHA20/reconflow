@@ -1,5 +1,5 @@
 # ReconFlow Report — nmap.org
-Generated: 2026-10-07T06:15:27.513976+00:00
+Generated: 2026-10-07T06:36:25.207829+00:00
 
 ## Subdomains (passive: Subfinder + Amass)
 16 found
@@ -21,7 +21,7 @@ Generated: 2026-10-07T06:15:27.513976+00:00
 - www.nmap.org
 - wwww.nmap.org
 
-## Live Hosts (HTTP/HTTPS probe)
+## Live Hosts
 16 responded
 
 - http://ack.nmap.org (403)
